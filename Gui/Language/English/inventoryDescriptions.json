@@ -23,12 +23,16 @@
     },
     //Furnaces
     "7e3df19b-2450-44ae-ad46-d2f6b5148cbf": {
+        "title": "Scrap Furnace",
+        "description": "Your very first furnace! And you got one for free (how nice). Dump all your drops into it to turn them into sweet cash (or research).\n\n#929292Drop Multiplier: #ffffff0.5\n#929292Power: #dddd00-3.00W"
+    },
+    "f3cd4701-7c2a-4ca2-bc41-b4fea87ff2d6": {
         "title": "Basic Furnace",
-        "description": "Your very first furnace! And you got one for free (how nice). Dump all your drops into it to turn them into sweet cash (or research).\n\n#929292Power: #dddd00-3.00W"
+        "description": "A slightly better furnace, which isn't as good as a Better Furnace, but not as bad as a Scrap Furnace.\n\n#929292Drop Multiplier: #ffffff1\n#929292Power: #dddd00-25.00W"
     },
     "3039176f-dea8-453d-82be-2c73a68ad05f": {
         "title": "Better Furnace",
-        "description": "It's just better. Sell your drops for twice their value while only consuming 10x more power!\n\nPower: #dddd00-30.0W"
+        "description": "It's just better. Sell your drops for twice their value while only consuming 10x more power!\n\n#929292Drop Multiplier: #ffffff2\n#929292Power: #dddd00-30.0W"
     },
     "e0587c21-2145-4ee1-beaa-d33ca3407c61": {
         "title": "Lunar Furnace",

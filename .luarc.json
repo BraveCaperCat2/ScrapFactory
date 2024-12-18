@@ -48,7 +48,13 @@
       "SpawnLoot"
     ],
     "disable": [
-      "lowercase-global"
+      "lowercase-global",
+            "undefined-doc-class",
+            "undefined-global",
+            "undefined-doc-name",
+            "undefined-field",
+            "missing-fields",
+            "missing-parameter"
     ]
   }
 }
