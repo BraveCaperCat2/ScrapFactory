@@ -11,20 +11,12 @@ Generator = class(nil)
 -- #region Server
 --------------------
 
-local maxGenerators = 50
 local currentGenertors = 0
 
 function Generator:server_onCreate()
     self.sv = self.sv or {}
 
     currentGenertors = currentGenertors + 1
-
-    if currentGenertors > maxGenerators then
-        SpawnLoot(sm.player.getAllPlayers()[1], { { uuid = self.shape.uuid } }, self.shape.worldPosition)
-        self.shape:destroyShape(0)
-        self.sv.overLimit = true
-        return
-    end
 
     if self.data.power then
         ---@diagnostic disable-next-line: assign-type-mismatch
@@ -74,7 +66,7 @@ function Generator:client_onCreate()
     if not sm.isHost then
         currentGenertors = currentGenertors + 1
     end
-    sm.gui.displayAlertText(string.format(language_tag("GeneratorUsage"), currentGenertors, maxGenerators))
+    sm.gui.displayAlertText(string.format(language_tag("GeneratorUsage"), currentGenertors))
 end
 
 function Generator:client_onClientDataUpdate(data)
@@ -94,14 +86,11 @@ end
 
 function Generator:client_onDestroy()
     if not sm.isHost then
-        currentGenertors = currentGenertors + 1
+        currentGenertors = currentGenertors - 1
     end
+    
     local warning = ""
-    if currentGenertors == maxGenerators then
-        warning = "#ff0000"
-        sm.event.sendToPlayer(sm.localPlayer.getPlayer(), "cl_e_playAudio", "RaftShark")
-    end
-    sm.gui.displayAlertText(warning .. string.format(language_tag("GeneratorUsage"), currentGenertors, maxGenerators))
+    sm.gui.displayAlertText(warning .. string.format(language_tag("GeneratorUsage"), currentGenertors))
 end
 
 -- #endregion

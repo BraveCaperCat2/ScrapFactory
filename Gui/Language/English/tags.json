@@ -6,7 +6,7 @@
 	//Energy System
 	"PowerCapacity": "Capacity: ",
 	"PowerOutput": "Producing: ",
-	"GeneratorUsage": "Generators: %s/%s",
+	"GeneratorUsage": "Generators: %s",
 	//Factory Import/Export
 	"ExportInteraction": "Export creation",
 	"ExportTitle": "Enter creation name",
