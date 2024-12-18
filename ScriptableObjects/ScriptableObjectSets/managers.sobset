@@ -1,0 +1,70 @@
+{
+	"scriptableObjectList": [
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/LanguageManager.lua",
+			"classname": "LanguageManager",
+			"name": "mgr_language",
+			"uuid": "c46b4d61-9f79-4f1c-b5d4-5ec4fff2c7b0"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/MoneyManager.lua",
+			"classname": "MoneyManager",
+			"name": "mgr_money",
+			"uuid": "e97b0595-7912-425b-8a60-ea6dbfba4b39"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/PowerManager.lua",
+			"classname": "PowerManager",
+			"name": "mgr_power",
+			"uuid": "26ec01d5-6fc8-4088-b06b-25d30dd44309"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/ResearchManager.lua",
+			"classname": "ResearchManager",
+			"name": "mgr_research",
+			"uuid": "6e7f54bb-e54d-46df-920a-bd225d0a9430"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/PollutionManager.lua",
+			"classname": "PollutionManager",
+			"name": "mgr_pollution",
+			"uuid": "64987a78-5b2b-4267-aeed-3d98dddcf12e"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/PrestigeManager.lua",
+			"classname": "PrestigeManager",
+			"name": "mgr_prestige",
+			"uuid": "2474d490-4530-4ff8-9436-ba716a0c665e"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/PerkManager.lua",
+			"classname": "PerkManager",
+			"name": "mgr_perk",
+			"uuid": "35492036-d286-4b0f-a17c-efa228875c0d"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/DailyRewardManager.lua",
+			"classname": "DailyRewardManager",
+			"name": "mgr_daily",
+			"uuid": "d0bed7e0-7065-40a5-b246-9f7356856037"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/LootCrateManager.lua",
+			"classname": "LootCrateManager",
+			"name": "mgr_lootcrate",
+			"uuid": "963f193f-cce8-4ed0-a04d-530fd70b230f"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/TutorialManager.lua",
+			"classname": "TutorialManager",
+			"name": "mgr_tutorial",
+			"uuid": "60702ca7-2d19-4d08-81e6-7a3ded53e338"
+		},
+		{
+			"filename": "$CONTENT_DATA/Scripts/Managers/SaveDataManager.lua",
+			"classname": "SaveDataManager",
+			"name": "mgr_saveData",
+			"uuid": "e4bc2df0-a163-4de5-87e4-119abd5409a4"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+   "baseGameContent": "Survival",
+   "gameScript" : {
+      "class" : "FactoryGame",
+      "file" : "$CONTENT_DATA/Scripts/game/FactoryGame.lua"
+   },
+   "playerScript" : {
+      "class" : "FactoryPlayer",
+      "file" : "$CONTENT_DATA/Scripts/game/FactoryPlayer.lua"
+   }
+}

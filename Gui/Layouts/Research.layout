@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundInteractableWide" position_real="0 0 0.51875000000000004 0.73148148148148151" name="BackPanel">
+        <Widget type="Button" skin="DressbotArrowRight" position_real="0.64759036144578308 0.0063291139240506328 0.076305220883534142 0.089873417721518981" align="Right Bottom" name="NextTier"/>
+        <Widget type="Button" skin="DressbotArrowLeft" position_real="0.28112449799196787 0.0063291139240506328 0.076305220883534142 0.089873417721518981" align="Left Bottom" name="PrevTier"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.010040160642570281 0.012658227848101266 0.98895582329317266 0.089873417721518981" align="HStretch Bottom" name="TierName">
+            <Property key="Caption" value="Tier 69"/>
+            <Property key="FontName" value="SM_ItemTitle"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.010040160642570281 0.11392405063291139 0.98493975903614461 0.60126582278481011" align="HStretch Bottom">
+            <Widget type="Widget" skin="SequenceListBackgroundLocked" position_real="0.081549439347604488 0.031578947368421054 0.83588175331294601 0.9263157894736842" align="Left Bottom">
+                <Widget type="TextBox" skin="UpgradeButton" position_real="0.51829268292682928 0.10227272727272728 0.46341463414634149 0.31818181818181818" align="HStretch Top">
+                    <Property key="FontName" value="SM_GameName"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="TextShadow" value="true"/>
+                    <Widget type="TextBox" skin="TextBox" position_real="0.21052631578947367 0.2857142857142857 0.58684210526315794 0.39285714285714285" name="Progress">
+                        <Property key="Caption" value="Status: $69/420 (69%)"/>
+                        <Property key="TextAlign" value="Center"/>
+                        <Property key="TextShadow" value="true"/>
+                        <Property key="FontName" value="SM_GameName"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="BackgroundPopup" position_real="0.017073170731707318 0.090909090909090912 0.46341463414634149 0.31818181818181818">
+                    <Widget type="Widget" skin="GenericButton" position_real="0.039473684210526314 0.10714285714285714 0.26315789473684209 0.7142857142857143">
+                        <Widget type="ImageBox" skin="ImageBox" position_real="0.02 0.01 0.97999999999999998 0.98999999999999999" name="Icon">
+                            <Property key="NeedKey" value="false"/>
+                            <Property key="NeedMouse" value="false"/>
+                            <Property key="ImageTexture" value="$CONTENT_1fcebf9f-612b-4e55-9b51-9bec113f9216/Gui/Images/test.png"/>
+                        </Widget>
+                    </Widget>
+                    <Widget type="TextBox" skin="TextBox" position_real="0.34210526315789475 0.17857142857142858 0.58684210526315794 0.6428571428571429" name="ResearchName">
+                        <Property key="TextAlign" value="Center"/>
+                        <Property key="Caption" value="Font testing"/>
+                        <Property key="FontName" value="SM_ItemTitle"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="BackgroundPopup" position_real="0.024390243902439025 0.46590909090909088 0.95731707317073167 0.45454545454545453">
+                    <Widget type="EditBox" skin="TextBox" position_real="0.031847133757961783 0.074999999999999997 0.92356687898089174 0.84999999999999998" name="ResearchDesc">
+                        <Property key="MultiLine" value="true"/>
+                        <Property key="WordWrap" value="true"/>
+                        <Property key="ReadOnly" value="true"/>
+                        <Property key="FontName" value="SM_ItemTitle"/>
+                        <Property key="Caption" value="Font Test"/>
+                        <Property key="NeedMouse" value="false"/>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="ItemColorLine" position_real="0 0.71518987341772156 1 0.017721518987341773"/>
+        <Widget type="Button" skin="GenderButton" position_real="0.14558232931726908 0.82278481012658233 0.10040160642570281 0.12658227848101267" name="BtnBottom_1">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="IconUnlock_1">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="GenderButton" position_real="0.27108433734939757 0.82278481012658233 0.10040160642570281 0.12658227848101267" name="BtnBottom_2">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="IconUnlock_2">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="GenderButton" position_real="0.3965863453815261 0.82278481012658233 0.10040160642570281 0.12658227848101267" name="BtnBottom_3">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="IconUnlock_3">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="GenderButton" position_real="0.52208835341365467 0.82278481012658233 0.10040160642570281 0.12658227848101267" name="BtnBottom_4">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="IconUnlock_4">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="GenderButton" position_real="0.64759036144578308 0.82278481012658233 0.10040160642570281 0.12658227848101267" name="BtnBottom_5">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="IconUnlock_5">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="GenderButton" position_real="0.76807228915662651 0.82278481012658233 0.10040160642570281 0.12658227848101267" name="BtnBottom_6">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="IconUnlock_6">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="DressbotArrowRight" position_real="0.89859437751004012 0.83544303797468356 0.076305220883534142 0.096202531645569619" name="UnlocksNext"/>
+        <Widget type="Button" skin="DressbotArrowLeft" position_real="0.045180722891566265 0.84177215189873422 0.076305220883534142 0.096202531645569619" name="UnlocksPrev"/>
+        <Widget type="Button" skin="ActiveButton" position_real="0.81325301204819278 0.012658227848101266 0.13052208835341367 0.082278481012658222" name="shop">
+            <Property key="Caption" value="Shop"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_ButtonSmallBold"/>
+        </Widget>
+        <Widget type="Button" skin="ActiveButton" position_real="0.035140562248995984 0.012658227848101266 0.13052208835341367 0.082278481012658222" name="prestige">
+            <Property key="Caption" value="Prestige"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_ButtonSmallBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.38152610441767071 0.740506329113924 0.26104417670682734 0.075949367088607597" name="Unlocks">
+            <Property key="Caption" value="Unlocks"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_HeaderLarge_Narrow"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>
