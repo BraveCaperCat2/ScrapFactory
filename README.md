@@ -1,6 +1,7 @@
 # Scrap-Factory
-*Tycoon games go brrrr*
-A custom game letting people build Tycoon-like factories.
+A ~~reuploaded~~ remastered version of DPP's Scrap Factory custom game.
+
+Create ores with **droppers**, increase their value with **upgraders**, sell your resources with **furnaces** and power your factory with **generators**. Also contains various other **utilities** and **decorative** parts.
 
 ## Features
 - Power managment
@@ -9,14 +10,11 @@ A custom game letting people build Tycoon-like factories.
 - Prestige system
 - Pollution
 - Factory building
+- Missing Locales
 
 ## Team:
-- Mel: owner
-- Illumina: artist girl
-- June: code, code review
-- Tofix: code, gui, and internal tools maintainer
-- Vajdani: code
+- BraveCaperCat2: Current Maintainer
+- ArtGeekMagic: Multiplayer tester (and great friend)
 
 ## Contributors
-- Nate: refactoring, code, and models
-- jsasasaaaaa: being jsa :)
+- No one... yet!
